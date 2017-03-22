@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/2048/2048",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "2048游戏",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#bbada0",
+    "selectedColor": "#8f7a66",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/2048/2048",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png",
+      "text": "游戏"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png",
+      "text": "日志"
+    }]
+  }
+}
